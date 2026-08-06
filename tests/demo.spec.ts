@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/homePage';
+import { HomePage } from '../pages/HomePage';
 
 test('首页加载并加购商品', async ({ page }) => {
    const home = new HomePage(page);
